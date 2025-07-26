@@ -1,5 +1,6 @@
 // src/components/Contact/ContactForm.jsx
 import React from "react";
+import PrimaryButton from "./PrimaryButton";
 
 function ContactForm() {
   return (
@@ -42,12 +43,7 @@ function ContactForm() {
         </div>
 
         {/* Button */}
-        <button
-          type="submit"
-          className="w-full sm:w-auto bg-sky-900 text-white px-5 sm:px-6 py-2 rounded-full font-medium hover:bg-sky-800 transition duration-300"
-        >
-          Submit →
-        </button>
+        <PrimaryButton label="Submit" />
       </form>
     </article>
   );
