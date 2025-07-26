@@ -55,10 +55,10 @@ function PricingItem() {
 
           {/* Button */}
           <button
-            className={`w-full py-2 sm:py-3 rounded-full font-medium transition ${
+            className={`button-base w-full py-2 sm:py-3 rounded-full font-medium ${
               plan.highlighted
-                ? "bg-sky-900 text-white"
-                : "border-2 border-sky-900 text-sky-900"
+                ? "bg-sky-900 text-white hover:bg-sky-800"
+                : "border-2 border-sky-900 text-sky-900 hover:bg-sky-900 hover:text-white"
             }`}
           >
             {plan.buttonText}

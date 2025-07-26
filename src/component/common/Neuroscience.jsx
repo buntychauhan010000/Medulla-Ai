@@ -40,7 +40,6 @@ function Neuroscience() {
         <button
           className="bg-cyan-700 py-2 px-6 sm:py-2.5 sm:px-7 lg:py-3 lg:px-9 text-white font-medium rounded-full transition duration-300 hover:bg-cyan-800"
           data-aos="zoom-in"
-          data-aos-delay="400"
         >
           Find Out
         </button>

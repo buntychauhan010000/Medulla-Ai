@@ -55,7 +55,7 @@ function MeasureHuman() {
         <button
           className="bg-rose-400 py-2 px-6 sm:py-2.5 sm:px-7 lg:py-3 lg:px-9 text-white font-medium rounded-full transition duration-300 hover:bg-rose-500"
           data-aos="zoom-in"
-          data-aos-delay="400"
+
         >
           Get Started
         </button>

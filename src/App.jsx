@@ -52,7 +52,7 @@ function App() {
           <img
             src={centerlogo}
             alt="MedullaAI"
-            className="w-20 sm:w-24 lg:w-28 animate-bounce mb-4"
+            className="w-20 sm:w-24 lg:w-28 animate-bounce"
           />
           <p className="text-xl sm:text-2xl font-bold text-sky-900 animate-pulse">
             Loading MedullaAI...

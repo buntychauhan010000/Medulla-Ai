@@ -27,3 +27,9 @@ html {
 button {
     cursor: pointer;
 }
+@layer components {
+    button {
+        @apply !transition-transform !duration-300 hover:scale-95;
+        
+    }
+}
