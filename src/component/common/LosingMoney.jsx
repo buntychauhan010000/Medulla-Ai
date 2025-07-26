@@ -1,6 +1,6 @@
 import React from "react";
 import PrimaryButton from "./PrimaryButton";
-import imageStrip from "../../assets/img/image-strip.png";
+import imageStrip from "../../assets/img/heroimg.png";
 
 function LosingMoney() {
   return (
