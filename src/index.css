@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/pagination";
 
 body {
     font-family: "Raleway", sans-serif;
@@ -14,12 +16,14 @@ body {
     --text-medium: 40px;
     /* max-width */
     --max-width: 500px;
+    /* break-point */
+    --breakpoint-xs: 480px;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
-button{
+button {
     cursor: pointer;
 }
-

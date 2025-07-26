@@ -8,7 +8,7 @@ function SimpleSteps() {
   return (
     <section
       id="Solution"
-      className="container mx-auto px-3 py-10 sm:py-14 lg:py-20"
+      className="container mx-auto px-3  py-5 xs:py-6 sm:py-8 md:py-10 xl:py-20"
       data-aos="fade-up"
     >
       {/* Title */}
@@ -28,7 +28,7 @@ function SimpleSteps() {
       >
         {/* Left Card */}
         <article
-          className="w-full  sm:max-w-xs pt-5 sm:pt-10 px-4 sm:px-6 backdrop-blur-[35px] shadow-[0_0_20px_0_#FBBF244D] rounded-2xl relative"
+          className="w-full  sm:max-w-3xs md:max-w-2xs lg:max-w-xs pt-5 sm:pt-10 px-4 sm:px-6 backdrop-blur-[35px] shadow-[0_0_20px_0_#FBBF244D] rounded-2xl relative"
           data-aos="fade-right"
           data-aos-delay="300"
         >
@@ -53,7 +53,7 @@ function SimpleSteps() {
 
         {/* Right Card */}
         <article
-          className="w-full max-w-xs pt-5 sm:pt-10 px-4 sm:px-6 backdrop-blur-[35px] shadow-[0_0_20px_0_#FBBF244D] rounded-2xl relative"
+          className="w-full sm:max-w-3xs md:max-w-2xs lg:max-w-xs  pt-5 sm:pt-10 px-4 sm:px-6 backdrop-blur-[35px] shadow-[0_0_20px_0_#FBBF244D] rounded-2xl relative"
           data-aos="fade-left"
           data-aos-delay="500"
         >
@@ -62,9 +62,7 @@ function SimpleSteps() {
             alt="Reality"
             className="w-full aspect-[3/4] object-cover rounded-t-xl"
           />
-          <button
-            className="py-1 px-2 sm:py-2 sm:px-4 text-sm sm:text-base bg-lime-500 text-white font-medium rounded-md absolute -top-4 left-1/2 -translate-x-1/2"
-          >
+          <button className="py-1 px-2 sm:py-2 sm:px-4 text-sm sm:text-base bg-lime-500 text-white font-medium rounded-md absolute -top-4 left-1/2 -translate-x-1/2">
             Reality
           </button>
         </article>

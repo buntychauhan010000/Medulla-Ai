@@ -23,7 +23,7 @@ function NavBar() {
   return (
     <nav className="bg-white">
       <div className="container mx-auto px-3">
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-1 md:py-4">
           {/* Logo */}
           <img src={logo} alt="Logo" className="w-50" />
 

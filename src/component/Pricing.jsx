@@ -7,10 +7,10 @@ function Pricing() {
   return (
     <div
       id="Pricing"
-      className="bg-gradient-to-b from-amber-50 to-white py-8 sm:py-14 md:py-10 lg:py-20"
+      className="bg-gradient-to-b from-amber-50 to-white py-5 sm:py-8 md:py-10 xl:py-20"
       data-aos="fade-up"
     >
-      <div className="container mx-auto px-3">
+      <div className="max-w-2xl md:max-w-4xl lg:container mx-auto px-3">
         {/* Heading */}
         <div
           className="text-center mb-8 sm:mb-10 md:mb-12"
@@ -28,7 +28,7 @@ function Pricing() {
 
         {/* Cards Grid */}
         <div
-          className="grid gap-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:max-w-7xl mx-auto"
+          className="grid gap-6 md:gap-3 lg:gap-8 grid-cols-1 xs:grid-cols-2 md:grid-cols-3 max-w-xs xs:max-w-2xl   sm:max-w-3xl md:max-w-5xl  lg:max-w-7xl mx-auto"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -50,7 +50,7 @@ function Pricing() {
               <LuBuilding2 className="text-2xl text-cyan-900" />
             </div>
             <div>
-              <h3 className="text-2xl sm:text-3xl font-bold text-cyan-900">
+              <h3 className="text-2xl md:text-3xl font-bold text-cyan-900">
                 Enterprise
               </h3>
               <p className="text-slate-400 text-sm sm:text-base">
@@ -59,11 +59,7 @@ function Pricing() {
             </div>
           </div>
 
-          <button
-            className="w-full sm:w-auto px-6 sm:px-8 md:px-20 py-2 border-2 text-sm sm:text-base font-medium border-sky-900 text-sky-900 rounded-full hover:bg-sky-900 hover:text-white transition-all duration-300 "
-           
-           
-          >
+          <button className="w-full sm:w-auto px-6 sm:px-8 md:px-20 py-2 border-2 text-sm sm:text-base font-medium border-sky-900 text-sky-900 rounded-full hover:bg-sky-900 hover:text-white transition-all duration-300 ">
             Contact Us
           </button>
         </div>

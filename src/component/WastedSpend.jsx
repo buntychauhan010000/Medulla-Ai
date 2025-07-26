@@ -4,7 +4,7 @@ import MeasureHuman from "./common/MeasureHuman";
 
 function WastedSpend() {
   return (
-    <div className="bg-gradient-to-b from-white to-amber-50 py-8 sm:py-16 md:py-10 lg:py-20">
+    <div className="bg-gradient-to-b from-white to-amber-50  py-5 xs:py-6 sm:py-8 md:py-10 xl:py-20">
       <div className="container mx-auto px-3">
         <p
           className="text-2xl md:text-3xl lg:text-medium font-bold text-center font-Montserrat mb-6 sm:mb-8 lg:mb-10"

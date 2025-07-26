@@ -5,7 +5,7 @@ import perfumegroup from "../../assets/img/perfumegroup.png";
 function MeasureHuman() {
   return (
     <section
-      className="flex flex-col-reverse sm:flex-row justify-between gap-8 sm:gap-10 md:gap-5 lg:gap-16 items-center py-8 sm:pt-10"
+      className="flex flex-col-reverse sm:flex-row justify-between gap-8 sm:gap-10 md:gap-5 lg:gap-16 items-center pt-8 lg:pt-10"
       data-aos="fade-up"
     >
       {/* Left Section */}

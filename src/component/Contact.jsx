@@ -6,7 +6,7 @@ function Contact() {
   return (
     <section
       id="Contact"
-      className="bg-gradient-to-b from-white to-sky-100 py-10 sm:py-14 lg:py-20"
+      className="bg-gradient-to-b from-white to-sky-100  py-5 xs:py-6 sm:py-8 md:py-10 xl:py-20"
       data-aos="fade-up"
     >
       <div className="container mx-auto px-3 sm:px-6 lg:px-8">
@@ -87,9 +87,7 @@ function Contact() {
                   Need assistance? Drop us a message anytime.
                 </p>
                 <p className="text-sky-900 font-medium text-sm sm:text-base mt-2">
-                  <a
-                    href="mailto:support@medullabs.com"
-                  >
+                  <a href="mailto:support@medullabs.com">
                     support@medullabs.com
                   </a>
                 </p>

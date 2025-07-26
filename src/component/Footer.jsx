@@ -8,7 +8,7 @@ function Footer() {
       className="bg-yellow-50 border-t border-slate-100 text-slate-500 text-sm"
       data-aos="fade-up"
     >
-      <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center md:items-center gap-4 md:gap-0">
+      <div className="container mx-auto px-3 py-3 md:py-6 flex flex-col md:flex-row justify-between items-center md:items-center gap-2 md:gap-0">
         {/* Left: Logo and Text */}
         <div
           className="flex flex-col sm:flex-row items-center gap-2 text-center sm:text-left"

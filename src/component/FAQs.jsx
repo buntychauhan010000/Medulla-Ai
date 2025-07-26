@@ -11,7 +11,7 @@ function FAQs() {
   return (
     <div
       id="FAQs"
-      className="container mx-auto px-3 sm:px-6 lg:px-8 py-8 sm:py-14 lg:py-20 max-w-4xl"
+      className="container mx-auto px-3 sm:px-6 lg:px-8  py-5 xs:py-6 sm:py-8 md:py-10 xl:py-20 max-w-4xl"
       data-aos="fade-up"
     >
       {/* Heading */}

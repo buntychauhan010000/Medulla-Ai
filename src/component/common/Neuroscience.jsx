@@ -5,7 +5,7 @@ import perfume from "../../assets/img/perfume.png";
 function Neuroscience() {
   return (
     <section
-      className="flex flex-col sm:flex-row justify-between gap-8 sm:gap-10 lg:gap-16 items-center py-8 sm:pb-10"
+      className="flex flex-col sm:flex-row justify-between gap-8 sm:gap-10 lg:gap-16 items-center py-8 lg:pb-10"
       data-aos="fade-up"
     >
       {/* Left Section */}

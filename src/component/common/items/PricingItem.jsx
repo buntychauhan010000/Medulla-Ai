@@ -8,7 +8,7 @@ function PricingItem() {
       {plans.map((plan, index) => (
         <div
           key={index}
-          className={`relative p-5 sm:p-6 md:p-8 rounded-2xl bg-white border text-center transition hover:shadow-lg ${
+          className={`relative p-5 sm:p-6 md:p-4 lg:p-8 rounded-2xl bg-white border text-center transition hover:shadow-lg ${
             plan.highlighted ? "border-amber-400 border-2" : "border-gray-200"
           }`}
           data-aos="fade-up" // <-- AOS Animation yaha
@@ -65,7 +65,7 @@ function PricingItem() {
           </button>
 
           {/* Features */}
-          <ul className="mt-5 sm:mt-6 space-y-2 text-left text-sm sm:text-base text-slate-500">
+          <ul className="mt-5 sm:mt-6 space-y-2 text-left text-sm lg:text-base text-slate-500">
             {plan.features.map((feature, i) => (
               <li key={i} className="flex items-center gap-2">
                 <span className="text-amber-400">✔</span>
