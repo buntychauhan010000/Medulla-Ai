@@ -60,9 +60,8 @@ function Pricing() {
           </div>
 
           <button
-            className="w-full sm:w-auto px-6 sm:px-8 md:px-20 py-2 border-2 text-sm sm:text-base font-medium border-sky-900 text-sky-900 rounded-full hover:bg-sky-900 hover:text-white "
-            data-aos="zoom-in"
-            data-aos-delay="400"
+            className="w-full sm:w-auto px-6 sm:px-8 md:px-20 py-2 border-2 text-sm sm:text-base font-medium border-sky-900 text-sky-900 rounded-full hover:bg-sky-900 hover:text-white transition-all duration-300 "
+           
            
           >
             Contact Us
